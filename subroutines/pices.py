@@ -120,6 +120,7 @@ def get_LME_records():
 
 def get_LME_records_plot():
     lme_file='./data/LME66_180/LME66_180.shp'
+    lme_file='./data/LME/LME66.shp'
     return gpd.read_file(lme_file)
 
     
